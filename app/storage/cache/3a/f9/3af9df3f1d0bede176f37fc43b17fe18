@@ -1,0 +1,10 @@
+9999999999s:597:"a:5:{s:5:"mtime";i:1406398754;s:7:"content";s:203:"title = "Blog post"
+url = "/blog/post/:slug"
+layout = "default"
+description = "This is the blog post single page"
+
+[blogPost]
+idParam = ":slug"
+categoryPageIdParam = ":slug"
+==
+{% component 'blogPost' %}";s:8:"settings";a:5:{s:5:"title";s:9:"Blog post";s:3:"url";s:16:"/blog/post/:slug";s:6:"layout";s:7:"default";s:11:"description";s:33:"This is the blog post single page";s:10:"components";a:1:{s:8:"blogPost";a:2:{s:7:"idParam";s:5:":slug";s:19:"categoryPageIdParam";s:5:":slug";}}}s:4:"code";N;s:6:"markup";s:26:"{% component 'blogPost' %}";}";
