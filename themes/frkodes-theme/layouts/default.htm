@@ -1,0 +1,32 @@
+description = "Default layout"
+==
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FRKodes - {{ this.page.title }}</title>
+        <meta name="author" content="@FRKodes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="{{ 'assets/images/october.png'|theme }}" />
+        {% styles %}
+        <link href="{{ [
+            'assets/css/theme.css',
+            'assets/css/frkodes.css'
+        ]|theme }}" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- Header -->
+        <header id="layout-header"> {% partial "header-nav" %} </header>
+        <!-- Content -->
+        <section id="layout-content">{% page %} </section>
+        <!-- Footer -->
+        <footer id="layout-footer"> {% partial "footer" %} </footer>
+        <!-- Scripts -->
+        <script src="{{ [
+            'assets/javascript/jquery.js',
+            'assets/javascript/app.js'
+        ]|theme }}"></script>
+        {% framework extras %}
+        {% scripts %}
+    </body>
+</html>

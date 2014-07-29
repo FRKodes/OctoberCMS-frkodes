@@ -1,0 +1,10 @@
+title = "Blog post"
+url = "/blog/post/:slug"
+layout = "default"
+description = "This is the blog post single page"
+
+[blogPost]
+idParam = ":slug"
+categoryPageIdParam = ":slug"
+==
+{% component 'blogPost' %}
