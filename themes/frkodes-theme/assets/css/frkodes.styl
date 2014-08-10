@@ -1,9 +1,93 @@
+@import 'nib'
+
 body
-	background transparent
+	background transparent url(../images/iphone-big.jpg) no-repeat 50% 50%
+	background-attachment fixed
+	background-size cover
+	.bg_gray
+		border-top 1px dotted gray
+		border-bottom 1px dotted gray
+	.bg_blue
+		border-top 1px dotted blue
+		border-bottom 1px dotted blue
 	#layout-content
 		padding-top 50px
+		figure
+			position relative
+			z-index 2
+			img
+				border-radius 50%
+		.header-banner
+			background transparent url(../images/spot-pattern.png) repeat left top
+			height 400px
+			overflow hidden
+			h1
+				color white
+				display block
+				background rgba(black, .8)
+				font-size 3.4em
+				font-style italic
+				width auto
+				padding 1em
+		.about-block
+			position relative
+			background white
+			figure
+				margin-top -100px
+				opacity 1
+				animation frkodesImage 1.5s
+				img
+					border 10px solid rgba(black, .9)
+			p
+				font-size 2em
+				padding 2em 0
+				a
+					font-style italic
+		.work-block
+			background gray
+		.contact-block
+			background pink
+		.last-block
+			background white
+.social
+	list-style none
+	text-align center
+	margin -145px 0 100px 0
+	li:first-of-type
+		margin-left -20px
+	li
+		display inline-block
+		width 50px
+		height 50px
+		position relative
+		z-index 10
+		background white
+		border-radius 50%
+		margin 0 20px
+		animation frkodesSocial 4.5s
+		font-size 3.6em
+		&.gh
+			margin-right 150px
+		&.em
+			margin-left 150px
+		a
+			display block
+			width 100%
+			height 100%
+			color black
+			&:hover
+				text-decoration none
 
-.bg_gray
-	background gray
-.bg_blue
-	background blue
+@keyframes frkodesImage
+	from
+		margin-top 0
+		opacity 0
+	to
+		margin-top -100px
+		opcaity 1
+
+@keyframes frkodesSocial
+	from
+		opacity 0
+	to
+		opcaity 1
