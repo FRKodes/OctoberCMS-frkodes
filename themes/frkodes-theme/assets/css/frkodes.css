@@ -53,13 +53,13 @@ body #layout-footer .social li a:hover{text-decoration:none}
 }@keyframes frkodesImage{0%{margin-top:0;opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
 100%{margin-top:-100px;opcaity:1}
 }@-moz-keyframes frkodesSocial{0%{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
-100%{opcaity:1}
+100%{opacity:1;-ms-filter:none;filter:none}
 }@-webkit-keyframes frkodesSocial{0%{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
-100%{opcaity:1}
+100%{opacity:1;-ms-filter:none;filter:none}
 }@-o-keyframes frkodesSocial{0%{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
-100%{opcaity:1}
+100%{opacity:1;-ms-filter:none;filter:none}
 }@-ms-keyframes frkodesSocial{0%{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
-100%{opcaity:1}
+100%{opacity:1;-ms-filter:none;filter:none}
 }@keyframes frkodesSocial{0%{opacity:0;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";filter:alpha(opacity=0)}
-100%{opcaity:1}
+100%{opacity:1;-ms-filter:none;filter:none}
 }
